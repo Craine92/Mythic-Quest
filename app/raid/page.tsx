@@ -12,10 +12,10 @@ const roster = [
   { role: "Tank", wowClass: "Protection Paladin", player: "Knödelhardt" },
   { role: "Tank", wowClass: "Feral Druid", player: "Kedayle" },
   { role: "Healer", wowClass: "Holy Priest", player: "Acecha" },
-  { role: "Healer", wowClass: "Restoration Shaman", player: "Tessandra" },
+  { role: "Healer", wowClass: "Holy Priest", player: "Tessandra" },
   { role: "DPS", wowClass: "Frost Mage", player: "Aurelien" },
   { role: "DPS", wowClass: "Combat Rogue", player: "Rishiku" },
-  { role: "DPS", wowClass: "Marksmen Hunter", player: "Lílí" },
+  { role: "DPS", wowClass: "Marksman Hunter", player: "Lílí" },
   { role: "DPS", wowClass: "Elemental Shaman", player: "Elektrobot" },
   { role: "DPS", wowClass: "Destro Warlock", player: "Lecco" },
 ];
