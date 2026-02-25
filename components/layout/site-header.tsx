@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { LOGO_PATH } from "@/lib/site";
 
 const navItems = [
   { href: "/", label: "Home" },
@@ -30,7 +31,7 @@ export function SiteHeader() {
         <Link href="/" className="group inline-flex items-center gap-3">
           <div className="relative overflow-hidden rounded-full border border-[#39B6FF]/45 bg-[#0B1020] p-1.5 shadow-[0_0_20px_rgba(31,124,255,0.4)]">
             <Image
-              src="/logo-mythic-quest.png"
+              src={LOGO_PATH}
               alt="Mythic Quest Logo"
               width={34}
               height={34}

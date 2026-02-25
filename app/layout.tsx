@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
+import { BASE_PATH, LOGO_PATH } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mythic-quest.example"),
+  metadataBase: new URL("https://craine92.github.io"),
   title: {
     default: "Mythic Quest | TBC Anniversary Gilde",
     template: "%s | Mythic Quest",
@@ -15,13 +16,13 @@ export const metadata: Metadata = {
     title: "Mythic Quest | TBC Anniversary Gilde",
     description:
       "Raid-ready Community mit Fokus auf Heroics und Progress. Raidzeiten: Sonntag 18:30-21:30.",
-    url: "https://mythic-quest.example",
+    url: `https://craine92.github.io${BASE_PATH}/`,
     siteName: "Mythic Quest",
     locale: "de_DE",
     type: "website",
     images: [
       {
-        url: "/logo-mythic-quest.png",
+        url: LOGO_PATH,
         width: 1024,
         height: 1024,
         alt: "Mythic Quest Guild Crest",
@@ -29,9 +30,9 @@ export const metadata: Metadata = {
     ],
   },
   icons: {
-    icon: "/logo-mythic-quest.png",
-    shortcut: "/logo-mythic-quest.png",
-    apple: "/logo-mythic-quest.png",
+    icon: LOGO_PATH,
+    shortcut: LOGO_PATH,
+    apple: LOGO_PATH,
   },
 };
 

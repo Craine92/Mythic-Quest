@@ -49,7 +49,7 @@ body {
   z-index: 0;
   background-image:
     linear-gradient(180deg, rgba(7, 10, 18, 0.9), rgba(7, 10, 18, 0.98)),
-    url("/logo-mythic-quest.png");
+    url("/Mythic-Quest/logo-mythic-quest.png");
   background-repeat: no-repeat, no-repeat;
   background-position: center, center;
   background-size: cover, min(65vw, 720px);

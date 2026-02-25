@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { SchedulePanel } from "@/components/ui/schedule-panel";
 import { SectionHeader } from "@/components/ui/section-header";
+import { LOGO_PATH } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -82,7 +83,7 @@ export default function Home() {
         <div className="justify-self-center">
           <div className="relative rounded-2xl border border-[#39B6FF]/35 bg-[#0B1020]/70 p-4 shadow-[0_0_36px_rgba(31,124,255,0.35)]">
             <Image
-              src="/logo-mythic-quest.png"
+              src={LOGO_PATH}
               alt="Guild Crest Mythic Quest"
               width={420}
               height={420}
