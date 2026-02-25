@@ -40,5 +40,5 @@ Die Seite nutzt dieses Logo in Header, Hero, Watermark und OpenGraph-Metadata.
 
 ## Platzhalter-Links
 
-- Discord: `https://discord.gg/placeholder`
+- Discord: `https://discord.gg/cmsRn2Ga`
 - Bewerbung: Route `/apply`

@@ -72,7 +72,7 @@ export default function Home() {
             performen, gemeinsam besser werden, Progress sauber aufbauen.
           </p>
           <div className="flex flex-wrap gap-3">
-            <Button href="https://discord.gg/placeholder" target="_blank">
+            <Button href="https://discord.gg/cmsRn2Ga" target="_blank">
               Join Discord
             </Button>
             <Button href="/apply" variant="secondary">
