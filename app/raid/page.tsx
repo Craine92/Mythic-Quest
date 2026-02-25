@@ -9,12 +9,15 @@ export const metadata: Metadata = {
 };
 
 const roster = [
-  { role: "Tank", wowClass: "Protection Paladin", player: "Aegor" },
-  { role: "Tank", wowClass: "Feral Druid", player: "Thornhide" },
-  { role: "Healer", wowClass: "Holy Priest", player: "Lumira" },
-  { role: "Healer", wowClass: "Restoration Shaman", player: "Stormleaf" },
-  { role: "DPS", wowClass: "Destruction Warlock", player: "Voidmark" },
-  { role: "DPS", wowClass: "Combat Rogue", player: "Nightstep" },
+  { role: "Tank", wowClass: "Protection Paladin", player: "Knödelhardt" },
+  { role: "Tank", wowClass: "Feral Druid", player: "Kedayle" },
+  { role: "Healer", wowClass: "Holy Priest", player: "Acecha" },
+  { role: "Healer", wowClass: "Restoration Shaman", player: "Tessandra" },
+  { role: "DPS", wowClass: "Frost Mage", player: "Aurelien" },
+  { role: "DPS", wowClass: "Combat Rogue", player: "Rishiku" },
+  { role: "DPS", wowClass: "Marksmen Hunter", player: "Lílí" },
+  { role: "DPS", wowClass: "Elemental Shaman", player: "Elektrobot" },
+  { role: "DPS", wowClass: "Destro Warlock", player: "Lecco" },
 ];
 
 const requirements = [
@@ -34,7 +37,7 @@ export default function RaidPage() {
       />
 
       <SchedulePanel
-        day="Sonntag"
+        day="Sonntag Karazhan"
         time="18:30-21:30"
         note="Invite ab 18:15. Pull um 18:30."
       />
