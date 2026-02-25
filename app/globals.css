@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --background: #070a12;
+  --background-elevated: #0b1020;
+  --foreground: #eaf0ff;
+  --muted: #aab4d6;
+  --blue: #1f7cff;
+  --blue-bright: #39b6ff;
+  --gold: #d6a64a;
+  --gold-bright: #f2c46d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Segoe UI", "Noto Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-title: "Cambria", "Times New Roman", "Palatino Linotype", Georgia, serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.font-title {
+  font-family: var(--font-title);
+  letter-spacing: 0.02em;
+}
+
+.font-body {
+  font-family: var(--font-sans);
+}
+
+.mq-bg-glow {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(circle at 15% 15%, rgba(31, 124, 255, 0.18), transparent 35%),
+    radial-gradient(circle at 85% 18%, rgba(57, 182, 255, 0.13), transparent 38%),
+    radial-gradient(circle at 50% 100%, rgba(214, 166, 74, 0.1), transparent 45%);
+  pointer-events: none;
+}
+
+.mq-bg-watermark {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-image:
+    linear-gradient(180deg, rgba(7, 10, 18, 0.9), rgba(7, 10, 18, 0.98)),
+    url("/logo-mythic-quest.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: cover, min(65vw, 720px);
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+* {
+  scrollbar-color: rgba(57, 182, 255, 0.55) #0b1020;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input,
+textarea,
+select {
+  color-scheme: dark;
+}
